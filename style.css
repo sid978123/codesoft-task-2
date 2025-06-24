@@ -1,0 +1,136 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .tagline {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  /* Sections */
+  section {
+    padding: 3rem 1rem;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #222;
+  }
+  
+  /* About Section */
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-content img {
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid #222;
+  }
+  
+  /* Skills */
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+  }
+  
+  .skills-list li {
+    background: #222;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+  }
+  
+  /* Projects */
+  .project-card {
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .project-card img {
+    width: 100%;
+    max-width: 300px;
+    object-fit: cover;
+  }
+  
+  .project-card div {
+    padding: 1rem;
+    flex: 1;
+  }
+  
+  /* Resume */
+  .download-btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  /* Contact */
+  #contact p {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+    }
+  
+    .project-card {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
